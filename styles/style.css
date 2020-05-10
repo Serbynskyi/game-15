@@ -1,0 +1,58 @@
+body {
+    padding: 10px;
+    background-color: lightblue;
+    display: flex;
+    font-family: Serif;
+    font-size: 24px;
+}
+
+section {
+    padding: 10px;
+    display: inline-block;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+td {
+    padding: 0px;
+}
+
+input, button {
+    font-family: Serif;
+    font-size: 24px;
+    width: 100%;
+}
+
+.div_with_borders {
+    width:173px;
+    height:173px;
+    border: 1px solid black;
+    overflow:hidden;
+}
+
+.div_with_borders:hover {
+    width:175px;
+    height:175px;
+    border: none;
+}
+
+.div_no_borders {
+    width:175px;
+    height:175px;
+    border: none;
+}
+
+.img_with_borders{
+    position: relative;
+    top: -1px; left: -1px;
+}
+
+.img_with_borders:hover {
+    top: 0px; left: 0px;
+}
+
+.img_no_borders {
+    top: 0px; left: 0px;
+}
